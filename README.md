@@ -1,6 +1,8 @@
 # Replicated Key-Value Storage - Simplified Amazon Dynamo
 This project contains a submission for an assignment; requirement for the course CSE 586: Distributed Systems offered in Spring 2017 at State University of New York.
 
+![Image](https://github.com/darshanbagul/Simple_Amazon_Dynamo/blob/master/images/amazon_dynamo.png)
+
 ## Introduction
 
 The main goal is to provide both availability and linearizability at the same time. In other words, your implementation should always perform read and write operations successfully even under node failures. At the same time, a read operation should always return the most recent value.
